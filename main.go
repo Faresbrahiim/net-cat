@@ -20,7 +20,6 @@ func main() {
 		fmt.Println("[USAGE]: ./TCPChat $port")
 		return
 	}
-
 	server := serverNet.NewServer(port)
 	server.Start()
 }
